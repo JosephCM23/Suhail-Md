@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
+global.email ="josephmaduka2326@gmail.com"
 global.location="Taraba,Nigeria."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -49,7 +49,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxx
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
